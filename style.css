@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;          /* ❗ one line only */
+}
+
+.logo h1 {
+  margin: 0;
+  color: rgb(42, 103, 42);
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  left: 400px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 16px;
+  white-space: nowrap;       /* ❗ no line breaks */
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-center a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;       /* ❗ no line breaks */
+  position: relative;
+  right: 400px;
+}
+
+.imag {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+button {
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  width: 100%;
+  height: 400px;                 /* adjust as needed */
+}
+.hero-text{
+    flex: 1;
+    display: flex;
+    background:  #f5c1c9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-image{
+    display: flex;
+    height: 400px;
+    width: auto;
+}
+.hero-text h1{
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+.hero-text h4{
+margin: 10px 0 20px;
+color: white;
+font-weight: 400;
+}
+
+.hero-text button {
+  background: #1f5c3a;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.hero-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;            /* fills the right side */
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+
+.secondary h1 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-weight: 50;
+}
+.container2{
+  display: flex;
+    height: 300px;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.box1{
+  display: flex;
+    height: 350px;
+    width: 250px;
+    background-color: #f5c1c9;
+    background-image: url(lily.jpg);
+    background-size: cover;
+    position: relative;
+}
+.box2{
+   display: flex;
+    height: 350px;
+    width: 250px;
+    background-color: #f5c1c9;
+    background-image: url(lotas.png);
+    background-size: cover;
+    position: relative;
+}
+.box3{
+   display: flex;
+    height: 350px;
+    width: 250px;
+    background-color: #f5c1c9;
+    background-image: url(red-rose.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.box1 p{
+  display: flex;
+  margin-top: 350px;
+}
+.box2 p{
+  display: flex;
+  margin-top: 350px;
+}.box3 p{
+  display: flex;
+  margin-top: 350px;
+}
+
+.box1:hover{
+     color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scaleX(1.25);
+    transition: all 0.3s ease;
+    transition: transform 0.9s ease;
+    box-shadow: #000;
+}
+.box2:hover{
+     color: white;
+    cursor: pointer;
+    transform: scaleX(1.25);
+    transition: all 0.3s ease;
+    transition: transform 0.9s ease;
+}
+.box3:hover{
+     color: white;
+    cursor: pointer;
+    transform: scaleX(1.25);
+    transition: all 0.3s ease;
+    transition: transform 0.9s ease;
+}
+.third h1{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 60px;
+  font-weight: 50;
+  font-size: 20px;
+}
+.container3{
+  display: flex;
+    height: 300px;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 40px;
+}
+.box4{
+  display: flex;
+    height: 350px;
+    width: 250px;
+    background-color: #f5c1c9;
+    background-image: url(5.jpg);
+    background-size: cover;
+    position: relative;
+}
+.box5{
+   display: flex;
+    height: 350px;
+    width: 250px;
+    background-color: #f5c1c9;
+    background-image: url(yellow-rose.jpg);
+    background-size: cover;
+    position: relative;
+}
+.box6{
+   display: flex;
+    height: 350px;
+    width: 250px;
+    background-color: #f5c1c9;
+    background-image: url(amelia-cui-LcD5aZ0Nt2U-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+}
+.box4 p{
+  display: flex;
+  margin-top: 350px;
+}
+.box5 p{
+  display: flex;
+  margin-top: 350px;
+}
+.box6 p{
+  display: flex;
+  margin-top: 350px;
+}
+.box4:hover{
+     color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scaleX(1.25);
+    transition: all 0.3s ease;
+    transition: transform 0.9s ease;
+    box-shadow: #000;
+}
+.box5:hover{
+     color: white;
+    cursor: pointer;
+    transform: scaleX(1.25);
+    transition: all 0.3s ease;
+    transition: transform 0.9s ease;
+}
+.box6:hover{
+     color: white;
+    cursor: pointer;
+    transform: scaleX(1.25);
+    transition: all 0.3s ease;
+    transition: transform 0.9s ease;
+}
+.forth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+ background-image: url(bg.webp);
+  background-size: cover;
+  height: 600px;
+  
+}
+.forth h1{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 50;
+  color: rgb(0, 0, 0);
+}
+.forth p{
+  font-family: 'Playfair Display', serif;
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(0, 0, 0); 
+}
+.main2{
+  display: flex;
+  width: 100%;
+  height: 400px;                 /* adjust as needed */
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+
+}
+.image-section {
+  height: 400px;
+  overflow: hidden;
+}
+
+.bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* This section overlaps the image */
+.cards {
+  margin-top: -120px;   /* <-- key line */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.card h2 {
+  margin-bottom: 15px;
+}
+.fifth{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:500px;
+background-image: url(lf.png);
+background-repeat: no-repeat;
+background-size: 500px 600px;
+}
+.overlay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.card1{
+  text-align: center;
+    height: 150px;
+    width: 550px;
+    background-color: #f0eef7;
+    border-width: 0;
+    border-radius: 8px;
+}
+.card2{
+    text-align: center;
+    height: 150px;
+    width: 550px;
+    background-color: #f0eef7;
+    border-width: 0;
+    border-radius: 8px;
+}
+.card3{
+    text-align: center;
+    height: 150px;
+    width: 550px;
+    background-color: #f0eef7;
+    border-width: 0;
+    border-radius: 8px;
+}
+.overlay p{
+  font-family: 'Poppins';
+    src: url(//www.florachic.com/wp-content/themes/hello-theme-child-master/css/../fonts/Poppins-ExtraLightItalic.woff2) format('woff2'), url(//www.florachic.com/wp-content/themes/hello-theme-child-master/css/../fonts/Poppins-ExtraLightItalic.woff) format('woff');
+   font-size: 19px;
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
